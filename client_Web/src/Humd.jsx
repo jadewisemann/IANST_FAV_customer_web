@@ -22,7 +22,7 @@ export default function Humd() {
               <div className="w-full h-[50%]">
                 <Linechart data={humdLinechartData} />
               </div>
-              <div className="text-xl font-bold text-center mb-4">
+              <div className="text-lg font-bold text-center mb-4">
                 <span>이상적인 생육습도는 {idealHumdMin}에서 {idealHumdMax}% 사이에요 <br />
                     이 토마토는 {humdFit} % 습도조건을 만족하는 <br /> 상위 {humdQuality}% 에 드는 상품이이에요</span>
               </div>

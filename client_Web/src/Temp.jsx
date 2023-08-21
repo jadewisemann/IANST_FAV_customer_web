@@ -20,7 +20,7 @@ export default function Temp() {
               <div className="w-full h-[50%]">
                 <Linechart data={tempLinechartData} />
               </div>
-              <div className="text-xl font-bold text-center mb-4">
+              <div className="text-lg font-bold text-center mb-4">
                 <span>이상적인 생육온도는 {idealTempMin}에서 {idealTempMax}도 사이에요 <br />
                     이 토마토는 {tempFit} % 온도조건을 만족하는 <br /> 상위 {tempQuality}% 에 드는 상품이이에요</span>
           </div>

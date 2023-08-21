@@ -29,19 +29,19 @@ export default function Home() {
     <div className="w-[90%] h-full flex flex-col items-center  ">
       <div className=" mr-auto mt-8 flex">
         <Avatar sx={{ width: 180, height: 180 }} src={profile} className="mt-4"/>
-        <div className=" break-keep ml-4 text-lg">
+        <div className=" break-keep ml-4 text-md">
           <span className="text-2xl">안녕하세요! </span><br />
             저는 <span className="font-bold text-2xl">부산 대저동</span>에서 정성을 담아 <span className="text-2xl font-bold">토마토</span>를 키우는
             <span className="font-bold text-2xl">{farmerName}</span> 입니다. <br />
           저희 농장에서는 <br /> <span className="text-2xl font-bold">토마토</span>를 전문적으로 키우고 있습니다. <br />
         </div>
       </div>
-      <div className="text-center w-full  pt-20  text-lg leading-relaxed">
+      <div className="text-center w-full  pt-20  text-md leading-relaxed">
           소중한 대저의 흙과 햇살을 담은 이 토마토는 <br /> <span className="font-bold text-xl">짭짤한 맛과 단단한 과육</span>의 특징을 가지고 있어요. <br />
           저희 농장에서는 환경과 건강을 생각하여 <br /> <span className="font-bold text-xl">무농약 재배</span>를 실천하고 있습니다. <br />
         저희는 <span className="font-bold text-xl">엄격한 기준</span>으로 토마토를 <span className="font-bold text-xl">선별</span>하여 <br />
         고객님께 <span className="font-bold text-xl">최상의 상품</span>만을 선보임을 <span className="font-bold text-xl">약속</span>드립니다. <br />
-        <span className="font-bold text-2xl">
+        <span className="font-bold text-xl">
           입에 담는 순간 시원한 맛이 터져나오는
           <br /> 대저 토마토를 마음껏 즐겨보세요!
         </span>
