@@ -1,25 +1,11 @@
 import { ResponsiveLine } from '@nivo/line'
 
-const CustomGrid = () => (
-    <g>
-        <line
-        x1={0}
-        x2={470}
-        y1={60 + -28 * (440 / (75 - 5))}
-        y2={60 + -28 * (440 / (75 - 5))}
-        stroke="#000000"
-        strokeLinecap="round"
-        strokeWidth={1}
-        strokeDasharray="4 4"
-        />
-    </g>
-)
 
 
 const Linechart = ({data}) => (
      <ResponsiveLine
         data={data}
-        margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+        margin={{ top: 80, right: 0, bottom: 30, left: 50 }}
         xScale={{ type: 'point' }}
         yScale={{
             type: 'linear',
@@ -31,16 +17,12 @@ const Linechart = ({data}) => (
         curve="cardinal"
         axisTop={null}
         axisRight={null}
-        axisBottom={{
-            tickSize: 5,
-            tickPadding: 5,
-            tickRotation: 0,
-        }}
+        axisBottom={null}
         axisLeft={{
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'count',
+            legend: '',
             legendOffset: -40,
             legendPosition: 'middle'
         }}
@@ -54,9 +36,7 @@ const Linechart = ({data}) => (
         isInteractive={false}
         enableCrosshair={false}
         useMesh={true}
-        legends={[]}
         animate={false}
-        layers={['grid', 'axes', 'markers', 'lines', 'points', 'slices', 'crosshair', CustomGrid]}
     />
 )
 

@@ -50,9 +50,9 @@ export default function Home() {
   </div>
   {/* page 6 */} 
   <div className="w-full h-screen  flex flex-col items-center  bg-teal-50">
-    <div className="w-full h-full flex flex-col items-center  justify-center">
+    <div className="w-[90%] h-full flex flex-col items-center  justify-center">
       <span className="text-5xl font-bold ">종합 점수</span>
-      <div className="w-full   h-[50vh]">
+      <div className="w-full   h-[50%]">
         <Radar/>
       </div>
       <div className="text-xl font-bold text-center ">

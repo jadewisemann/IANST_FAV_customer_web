@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       {/* full page */}
-      <div className="scrollbar-hide max-w-md h-fit min-h-screen mx-auto flex flex-col items-center overflow-y-auto overflow-x-hidden bg-stone-50 select-none ">
+      <div className="scrollbar-hide max-w-md w-md h-fit min-h-screen mx-auto flex flex-col items-center overflow-y-auto overflow-x-hidden bg-stone-50 select-none ">
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
