@@ -5,7 +5,7 @@ export default function Nav() {
 
   return (
     <>
-    <div className="w-[50%] mt-8 grid grid-cols-3">
+    <div className="w-[80%] mt-4 grid grid-cols-3">
           <button onClick={e => {
             e.preventDefault(),
             navigate("/lumina")

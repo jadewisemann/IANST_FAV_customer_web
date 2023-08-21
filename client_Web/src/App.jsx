@@ -10,9 +10,7 @@ function App() {
   return (
     <>
       {/* full page */}
-      <div className="w-screen scrollbar-hide max-w-3xl h-fit min-h-screen mx-auto flex flex-col items-center overflow-y-auto overflow-x-hidden bg-stone-50 select-none ">
-        {/* wrapper, 90vw */}
-        <div className="w-[90%]  h-fit flex flex-col items-center ">
+      <div className="scrollbar-hide max-w-md h-fit min-h-screen mx-auto flex flex-col items-center overflow-y-auto overflow-x-hidden bg-stone-50 select-none ">
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -21,7 +19,6 @@ function App() {
               <Route path="/lumina" element={<Lumina />} />
             </Routes>
           </BrowserRouter>
-        </div>
       </div>
     </>
   )
