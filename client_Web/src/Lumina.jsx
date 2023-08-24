@@ -22,8 +22,8 @@ export default function Lumina() {
                 <Linechart data={luminaLinechartData} />
               </div>
               <div className="text-lg font-bold text-center mb-4">
-                <span>이상적인 생육 조도는 {idealLuminaMin}에서 {idealLuminaMax}% 사이에요 <br />
-                    이 토마토는 {luminaFit} % 조도조건을 만족하는 <br /> 상위 {luminaQuality}% 에 드는 상품이이에요</span>
+                <span>이상적인 생육 조도는 <br />{idealLuminaMin}에서 {idealLuminaMax}% 사이에요 <br />
+                    조건을 {luminaFit} % 만족하는 <br /> 상위 {luminaQuality}% 상품입니다</span>
               </div>
           <Nav />
         <BackHome/>
