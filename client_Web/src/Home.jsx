@@ -58,7 +58,7 @@ export default function Home() {
       <div className="text-xl font-bold text-center ">
         이 {productName}의 종합 점수는 <br /> 5점 만점에 {overallScore} 점 입니다. 
       </div>
-      <div className="text-2xl font-bold mt-2">
+      <div className="text-xl font-bold mt-2">
         이 점수는 어떻게  매겨졌을까요 ?
       </div>
         <div className="text-center mt-2 text-lg font-bold ">
