@@ -59,10 +59,10 @@ export default function Home() {
         이 {productName}의 종합 점수는 <br /> 5점 만점에 {overallScore} 점 입니다. 
       </div>
       <div className="text-2xl font-bold mt-2">
-        이 점수는 어떻게 매겨졌을까요 ?
+        이 점수는 어떻게  매겨졌을까요 ?
       </div>
-        <div className="mt-2 text-lg font-bold ">
-          자세한 내용을 보려면 아래 버튼을 눌러주세요
+        <div className="text-center mt-2 text-lg font-bold ">
+          자세한 내용을 보려면 <br />아래 버튼을 눌러주세요
         </div>
         <Nav/>
     </div>
